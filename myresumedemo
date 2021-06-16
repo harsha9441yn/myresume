@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>YENUGU HARSHAVARDHAN</title>
+    <style>
+    body{
+      background-color: rgba(0,0,0,0.85)
+    }
+
+    .header1{
+      background-color: #F06B42;
+      width:100%;
+     height:50px;
+      position:fixed;
+      box-sizing: border-box;
+
+    }
+    .name{
+      display:inline-block;
+      font-family: sans-serif;
+      padding:13px 10px;
+      font-weight: bold;
+      float:left;
+      font-size:150%;
+    }
+    div.navlist{
+      display: inline-block;
+      float:right;
+      overflow: hidden;
+      padding:15px;
+      height:auto;
+      box-sizing: border-box;
+
+
+    }
+    div.navlist a{
+      text-decoration: none;
+      padding-right: 7px;
+      font-weight:normal;
+      font-size: 110%;
+      font-family:fantasy;
+      color:#939F9E;
+
+
+      color:white
+      text-align: center;
+
+
+    }
+    .navlist a:hover{
+
+      background-color: rgba(83, 133, 15,0.5);
+      padding:15px;
+    }
+
+    </style>
+
+    <link rel="stylesheet"  type="text/css" href="style.css"
+
+
+
+  </head>
+  <body>
+    <section class="header">
+      <div class="header1">
+        <span class="name">YENUGU HARSHAVARDHAN</span>
+        <div class="navlist">
+          <a href="">HOME</a>
+          <a href="">EDUCATION</a>
+          <a href="">PARTICIPATION</a>
+          <a href="">PERSONAL</a>
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+  </body>
+</html>
