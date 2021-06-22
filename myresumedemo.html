@@ -79,23 +79,23 @@
     .edutitle {
       height:15vh;
       width:100%;
+      border-radius: 3px 30px;
       position: relative;
-      background-color: orange;
+      background: linear-gradient(to top right, #003366 36%, #666699 51%);
+      margin-bottom: 2vh;
+
 
 
     }
-    .book img{
 
-      float:left;
-      height:15vh;
-      width:100%;
-    }
     .edutit {
       position:absolute;
-      top:20%;
-      left:25%;
+      top:25%;
+      left:0%;
+      font-family :fantasy;
       z-index: 1;
       color:red;
+
 
 
       font-size:300%;
@@ -104,11 +104,56 @@
     #edu {
       margin-top:15vh;
       height:100vh;
-      background-color: #8f5250;
+
+
+      width:100%;
     }
     #quote1 {
       color:#8f5250;
     }
+.book {
+  posotion:relative;
+}
+    .book img{
+
+      float:left;
+
+      height:85vh;
+      width:50%;
+    }
+    .content {
+      width:20%;
+      float: left;
+      height:auto;
+      position: relative;
+      background-color: #8f7271;
+      border-radius: 15px;
+      padding:3px 15px;
+
+
+      margin-bottom:20px;
+    }
+    .ver {
+      width:5px;
+      float:left;
+      margin:10px 100px 10px 50px;
+      background-color: white;
+      height:80vh;
+
+
+
+    }
+.dot {
+  border-radius: 50%;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color:#8f5250;
+  left: -117px;
+  top: 20px;
+text-align: center;
+
+}
 
     </style>
 
@@ -136,14 +181,47 @@
     </section>
     <section id="edu">
       <div class="edutitle">
-        <div class="book">
-          <img src="edu1.gif" alt="book gif">
-      </div>
-      <span class="edutit">MY EDUCATION</span>
 
+      <span class="edutit">MY EDUCATION</span>
+    </div>
+    <div class="book">
+      <img src="Y:/edu1.gif" alt="book gif">
+  </div>
+
+
+
+
+<div class="timeline">
       <div class="ver">
+
       </div>
-      <div>
+      <div class="content">
+        <div class="dot">
+          <label style="padding-top:2px; font-size:150%;">3</label>
+        </div>
+
+
+        <h3>2021<br>Engineering</h3>
+        <p>I am currently pursing my engieering at<br> <span id="clg">VISVODAY INSTITUTE OF TECHNOLOGY AND SCIENCE</span><br> current percantage:85.3%</p>
+      </div>
+      <div class="content">
+        <div class="dot">
+          <label style="padding-top:2px; font-size:150%;">2</label>
+        </div>
+
+
+        <h3>2018<br>Intermediate</h3>
+        <p>I completed my intermediate education at<br> <span id="clg">KRISHNA CHAITANYA JUNIOR COLLEGE</span><br> percantage:97.5%</p>
+      </div>
+      <div class="content">
+        <div class="dot">
+          <label style="padding-top:2px; font-size:150%;">1</label>
+        </div>
+
+        <h3>2016<br>SSC</h3>
+        <p>I completed my intermediate education at<br> <span id="clg">KSZP HIGH SCHOOL</span><br>percantage:90%</p>
+      </div>
+    </div>
 
     </section>
 
